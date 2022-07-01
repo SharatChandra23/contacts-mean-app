@@ -1,0 +1,20 @@
+{
+  "/api": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "headers": {
+      "Connection": "keep-alive"
+    }
+  },
+  "/api/*": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "headers": {
+      "Connection": "keep-alive"
+    }
+  },
+  "/profiles": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}

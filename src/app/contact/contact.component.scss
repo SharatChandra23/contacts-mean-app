@@ -1,0 +1,26 @@
+.ui.card {
+  .content {
+    .description {
+      height: 65px;
+    }
+
+    .extra {
+      .delete-cls {
+        float: right;
+        cursor: pointer;
+
+        i {
+          margin-left: 5px;
+          font-size: 1.2rem;
+          font-weight: bold;
+
+          &.trash {
+            position: relative;
+            top: -2px;
+          }
+        }
+      }
+
+    }
+  }
+}

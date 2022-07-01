@@ -1,0 +1,24 @@
+<div class="ui card">
+    <div class="image">
+        <img [src]="contact?.photoUrl" alt="">
+    </div>
+    <div class="content">
+        <a href="" class="header">{{contact.name}}</a>
+        <div class="description">
+            {{contact.address}}
+        </div>
+        <div class="extra content">
+            <span>
+                <i class="call icon">
+                </i>
+                {{contact.phone}}
+            </span>
+            <span class="edit-cls" (click)="updateContact(contact)">
+            </span>
+            <span class="delete-cls" (click)="deleteContact(contact)">
+              <i class="edit icon"></i>
+              <i class="trash icon"></i>
+            </span>
+        </div>
+    </div>
+</div>
